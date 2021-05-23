@@ -1,0 +1,12 @@
+#main-page-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-page-2 {
+  flex: 1;
+}
+
+.MaxHeight {
+  height: 100vh;
+}

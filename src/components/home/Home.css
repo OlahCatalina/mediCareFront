@@ -1,0 +1,54 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title-container {
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(16, 52, 77) !important;
+}
+
+.moto{
+  margin: 20px;
+  padding: 40px;
+  background-color: rgb(116, 127, 158);
+  color: rgb(253, 254, 255);
+}
+
+.home-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card-container {
+  padding: 50px;
+  margin-right: 20px;
+  align-self: flex-end;
+  background-color: rgb(18, 146, 231) !important;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.first-child {
+  color: white;
+  line-height: 1.2;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.second-child {
+  padding-top: 20px;
+  color: white;
+  line-height: 1.2;
+  font-size: 1.5rem;
+}
+
+.image-container {
+  width: 30%;
+  margin-right: 5rem;
+  padding: 30px;
+}
